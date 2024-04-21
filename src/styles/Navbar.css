@@ -1,0 +1,31 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 43px !important;
+  padding: 20px 50px;
+  background-color: #f4f5fd;
+}
+.personal-brand {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #5856d5;
+  font-size: 28px;
+}
+.personal-brand a {
+  text-decoration: none;
+  color: inherit;
+}
+.navbar-links a {
+  text-decoration: none;
+  color: rgb(88, 86, 213, 0.66);
+  padding-left: 39px;
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "GRAD" 0;
+  font-size: 15px;
+}
+.navbar-links a:hover {
+  color: rgb(88, 86, 213, 0.96);
+}

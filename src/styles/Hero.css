@@ -1,0 +1,64 @@
+.Hero {
+  width: 100%;
+  height: 100vh;
+  background-color: #f4f5fd;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "GRAD" 0;
+  color: #97a6e7;
+}
+.Hero div {
+  width: auto;
+}
+
+.dot-separator {
+  width: 10px !important;
+  height: 10px !important;
+  background-color: rgb(88, 86, 213, 0.6);
+  border-radius: 50%;
+  margin: 0 10px;
+}
+.profiles {
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  margin-bottom: 26px;
+}
+.welcome-tag {
+  font-weight: 500;
+  font-size: 20;
+}
+.name {
+  font-size: 40;
+  font-weight: 500;
+  color: #5856d5;
+  margin-bottom: 10px;
+}
+.name span {
+  font-weight: 700;
+}
+.dp {
+  width: 432px;
+  object-fit: cover;
+  border-radius: 174px;
+}
+.social-handles {
+  display: flex;
+}
+.social-handles a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.social-handles i {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  margin-right: 23px;
+}
+.social-handles i:hover {
+  color: #5856d5;
+}
