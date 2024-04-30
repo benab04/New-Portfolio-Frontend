@@ -88,6 +88,15 @@ const projects = [
     github: "https://github.com/benab04/cancer-predict-streamlit",
     link: "https://cancer-predict-benab04.streamlit.app/",
   },
+  // {
+  //   title: "To Do App",
+  //   description:
+  //     "Developed a to-do application with ReactJS frontend and Node.js backend, utilizing MongoDB for data storage, enabling efficient task management and organization.",
+  //   skills: ["ReactJS", "ExpressJS", "NodeJS", "MongoDB"],
+  //   image: solar,
+  //   github: "https://github.com/benab04/FullStack-To-Do-frontend",
+  //   link: "https://to-do-benab04.netlify.app/",
+  // },
   {
     title: "Dual Axis Solar Tracker",
     description:
