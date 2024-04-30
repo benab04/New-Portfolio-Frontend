@@ -22,12 +22,28 @@ function Projects() {
               <h3>{project.title}</h3>
               <p>{project.description}</p>
             </div>
-            <a className="project-link" href="#">
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-            </a>
-            <a className="project-github" href="#">
-              <i class="fa-brands fa-github"></i>
-            </a>
+            <div className="project-redirects">
+              {project.link != "" ? (
+                <a
+                  className="project-link"
+                  target="_blank"
+                  rel="noreferrer"
+                  href={project.link}
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              ) : null}
+              {project.github != "" ? (
+                <a
+                  className="project-github"
+                  target="_blank"
+                  rel="noreferrer"
+                  href={project.github}
+                >
+                  <i class="fa-brands fa-github"></i>
+                </a>
+              ) : null}
+            </div>
           </div>
         ))}
       </div>

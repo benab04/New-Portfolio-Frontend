@@ -82,19 +82,20 @@
   margin: 5px 5px;
   color: rgb(80, 87, 146) !important;
 }
+.project-redirects {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
 .project-github {
   text-decoration: none;
   color: #97a6e7;
-  position: absolute;
   font-size: 21px;
-  bottom: 10px;
-  right: 10px;
+  margin: 5px 10px 5px 0;
 }
 .project-link {
   text-decoration: none;
   color: #97a6e7;
-  position: absolute;
   font-size: 20px;
-  bottom: 10px;
-  right: 38px;
+  margin: 5px 10px 5px 0;
 }
