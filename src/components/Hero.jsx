@@ -14,16 +14,28 @@ function Hero() {
           <div className="dot-separator"></div>Robotics
         </h5>
         <div className="social-handles">
-          <a href="">
+          <a
+            href="https://www.instagram.com/ben_abraham_biju/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i class="fa-brands fa-instagram"></i>
           </a>
-          <a href="#">
+          <a
+            href="https://www.facebook.com/profile.php?id=100087392554247"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i class="fa-brands fa-facebook"></i>
           </a>
-          <a href="#">
+          <a
+            href="https://www.linkedin.com/in/ben-abraham-biju-2038a4244/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
-          <a href="#">
+          <a href="https://github.com/benab04" target="_blank" rel="noreferrer">
             <i class="fa-brands fa-github"></i>
           </a>
         </div>

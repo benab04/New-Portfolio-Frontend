@@ -59,6 +59,8 @@
   font-size: 30px;
   margin-right: 23px;
 }
-.social-handles i:hover {
+.social-handles i:hover,
+.project-github:hover,
+.project-link:hover {
   color: #5856d5;
 }
