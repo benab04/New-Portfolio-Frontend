@@ -1,0 +1,100 @@
+.project-outer-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 50px;
+  /* justify-content: center; */
+  min-height: 600px;
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "GRAD" 0;
+  background-color: #f4f5fd;
+}
+.project-section-heading {
+  font-family: "Passion One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #5856d5 !important;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.project-div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: fit-content;
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "GRAD" 0;
+  background-color: #f4f5fd;
+}
+.project-card {
+  position: relative;
+  display: flex !important;
+  /* justify-content: center !important; */
+  align-items: center !important;
+  flex-direction: column !important;
+  width: 350px;
+  height: fit-content;
+  min-height: 400px;
+  /* max-height: 400px; */
+  margin: 0 20px 50px 20px;
+  background-color: rgb(88, 86, 213, 0.04);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+.project-image {
+  width: 350px;
+  margin: unset !important;
+  padding: unset !important;
+}
+.project-skills {
+  width: 350px;
+  margin-top: 10px;
+  display: flex !important;
+  align-items: center !important;
+  flex-wrap: wrap !important;
+}
+.project-skills p {
+  margin: 2px 5px;
+  padding: 2px 4px;
+  border-radius: 10px;
+  /* margin: unset; */
+  font-size: 9px;
+  font-weight: 700;
+  color: #4938b6;
+  text-align: left;
+  background-color: rgba(88, 86, 213, 0.164);
+}
+.project-details h3 {
+  font-size: 22px;
+  font-weight: 800;
+  margin: 5px 5px;
+  color: #5856d5 !important;
+}
+.project-details p {
+  font-size: 11px;
+  font-weight: 700;
+  margin: 5px 5px;
+  color: rgb(80, 87, 146) !important;
+}
+.project-github {
+  text-decoration: none;
+  color: #97a6e7;
+  position: absolute;
+  font-size: 21px;
+  bottom: 10px;
+  right: 10px;
+}
+.project-link {
+  text-decoration: none;
+  color: #97a6e7;
+  position: absolute;
+  font-size: 20px;
+  bottom: 10px;
+  right: 38px;
+}
