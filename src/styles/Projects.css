@@ -41,7 +41,7 @@
   flex-direction: column !important;
   width: 350px;
   height: fit-content;
-  min-height: 400px;
+  min-height: 450px;
   /* max-height: 400px; */
   margin: 0 20px 50px 20px;
   background-color: rgb(88, 86, 213, 0.04);
@@ -98,4 +98,6 @@
   color: #97a6e7;
   font-size: 20px;
   margin: 5px 10px 5px 0;
+}
+@media screen and (max-width: 700px) {
 }
