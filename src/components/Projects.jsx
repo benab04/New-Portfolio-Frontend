@@ -3,7 +3,7 @@ import projects from "../assets/data/projects";
 import "../styles/Projects.css";
 function Projects() {
   return (
-    <div className="project-outer-div">
+    <div id="projects" className="project-outer-div">
       <h1 className="project-section-heading">My Projects</h1>
       <div className="project-div">
         {projects.map((project, index) => (

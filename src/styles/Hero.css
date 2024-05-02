@@ -10,6 +10,7 @@
   font-style: normal;
   font-variation-settings: "wdth" 100, "GRAD" 0;
   color: #97a6e7;
+  z-index: -2;
 }
 .Hero div {
   width: auto;
@@ -30,10 +31,10 @@
 }
 .welcome-tag {
   font-weight: 500;
-  font-size: 20;
+  font-size: 20px;
 }
 .name {
-  font-size: 40;
+  font-size: 40px;
   font-weight: 500;
   color: #5856d5;
   margin-bottom: 10px;
@@ -63,4 +64,64 @@
 .project-github:hover,
 .project-link:hover {
   color: #5856d5;
+}
+
+@media screen and (max-width: 1032px) {
+  .dp {
+    width: 320px;
+    border-radius: 120px;
+  }
+}
+@media screen and (max-width: 855px) {
+  .Hero {
+    flex-direction: column;
+  }
+  .dp {
+    width: 360px;
+    border-radius: 120px;
+  }
+  .name {
+    font-size: 40px;
+    font-weight: 500;
+    color: #5856d5;
+    margin-bottom: 10px;
+  }
+  .welcome-tag {
+    font-weight: 500;
+    font-size: 20px;
+  }
+  .social-handles i {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    margin-right: 23px;
+  }
+}
+@media screen and (max-width: 463px) {
+  .Hero {
+    flex-direction: column;
+  }
+  .dp {
+    width: 280px;
+    border-radius: 120px;
+  }
+  .name {
+    font-size: 22px;
+    font-weight: 500;
+    color: #5856d5;
+    margin-bottom: 10px;
+  }
+  .welcome-tag {
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .social-handles i {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    margin-right: 21px;
+  }
+  .profiles {
+    font-size: 16px;
+  }
 }

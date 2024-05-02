@@ -1,9 +1,10 @@
 .Navbar {
   display: flex;
   justify-content: space-between;
-  height: 43px !important;
+  height: 63px !important;
   padding: 20px 50px;
   background-color: #f4f5fd;
+  z-index: 9999 !important;
 }
 .personal-brand {
   font-family: "Passion One", sans-serif;
@@ -25,7 +26,90 @@
   font-style: normal;
   font-variation-settings: "wdth" 100, "GRAD" 0;
   font-size: 15px;
+  font-weight: 500;
 }
 .navbar-links a:hover {
   color: rgb(88, 86, 213, 0.96);
+}
+
+.toggle-nav {
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  cursor: pointer;
+}
+.toggle-nav div {
+  width: 20px;
+  height: 3px;
+  background: #5856d5;
+  margin: 2px 0;
+}
+.mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .toggle-nav {
+    display: flex;
+  }
+  .navbar-links {
+    display: none;
+  }
+  .mobile-menu {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    height: fit-content;
+    width: 100%;
+    top: 63px;
+    left: 0;
+    background-color: #f4f5fd;
+    transition: 2s;
+    animation: expandmenu 1s ease forwards;
+    z-index: 2;
+  }
+  @keyframes expandmenu {
+    0% {
+      left: -400px;
+    }
+    100% {
+      left: 0;
+      top: 63px;
+    }
+  }
+  .mobile-menu a {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-weight: 600;
+  }
+  .close {
+    position: relative;
+  }
+  .close .line:first-child {
+    position: absolute;
+    animation: rotateby45 0.5s forwards;
+  }
+  .close .line:last-child {
+    position: absolute;
+    animation: rotateby135 0.5s forwards;
+  }
+  @keyframes rotateby45 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(45deg);
+    }
+  }
+  @keyframes rotateby135 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(135deg);
+    }
+  }
 }

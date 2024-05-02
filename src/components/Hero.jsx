@@ -3,7 +3,7 @@ import "../styles/Hero.css";
 import dp from "../assets/images/Ben Abraham Biju.png";
 function Hero() {
   return (
-    <div className="Hero">
+    <div id="home" className="Hero">
       <div>
         <h5 className="welcome-tag">Hey There!</h5>
         <h1 className="name">
