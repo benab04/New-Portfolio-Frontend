@@ -16,6 +16,7 @@
 .personal-brand a {
   text-decoration: none;
   color: inherit;
+  cursor: none !important;
 }
 .navbar-links a {
   text-decoration: none;
@@ -27,6 +28,7 @@
   font-variation-settings: "wdth" 100, "GRAD" 0;
   font-size: 15px;
   font-weight: 500;
+  cursor: none !important;
 }
 .navbar-links a:hover {
   color: rgb(88, 86, 213, 0.96);
@@ -84,6 +86,7 @@
     margin-left: 10px;
     margin-bottom: 5px;
     font-weight: 600;
+    cursor: none !important;
   }
   .close {
     position: relative;
