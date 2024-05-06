@@ -1,0 +1,36 @@
+.custom-cursor {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+}
+.App {
+  cursor: none;
+}
+.arrow {
+  width: 3px;
+  height: 3px;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-bottom: 14px solid rgb(54, 12, 205);
+  transform: rotate(-45deg);
+}
+.circle {
+  position: fixed;
+  width: 25px; /* Adjust the size of the circle */
+  height: 25px; /* Adjust the size of the circle */
+  border-radius: 50%;
+  border: 2px solid rgb(54, 12, 205); /* Adjust the color and thickness of the border */
+  pointer-events: none;
+  transition: 0.25s;
+  z-index: 9998; /* Ensure the circle appears behind the cursor */
+}
+.inner-circle {
+  position: fixed;
+  width: 1px; /* Adjust the size of the circle */
+  height: 1px; /* Adjust the size of the circle */
+  border-radius: 50%;
+  border: 2px solid rgb(54, 12, 205); /* Adjust the color and thickness of the border */
+  pointer-events: none;
+  transition: 0.15s;
+  z-index: 9998; /* Ensure the circle appears behind the cursor */
+}

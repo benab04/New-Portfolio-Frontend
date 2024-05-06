@@ -44,12 +44,18 @@
   min-height: 450px;
   /* max-height: 400px; */
   margin: 0 20px 50px 20px;
+  border-radius: 10px;
   background-color: rgb(88, 86, 213, 0.04);
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.project-card:hover {
+  box-shadow: 0px 4px 30px rgba(71, 19, 161, 0.779);
 }
 .project-image {
   width: 350px;
   margin: unset !important;
+  border-radius: 10px 10px 0 0;
+
   padding: unset !important;
 }
 .project-skills {
