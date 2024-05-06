@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-
+import { useCursor } from "./CursorContext";
 const ProjectCard = ({ project, index }) => {
   const { ref, inView } = useInView({
     triggerOnce: true, // Only trigger once when the element comes into view
   });
+  const { setHovering } = useCursor();
 
   return (
     <motion.div
@@ -35,6 +36,12 @@ const ProjectCard = ({ project, index }) => {
             target="_blank"
             rel="noreferrer"
             href={project.link}
+            onMouseEnter={() => {
+              setHovering(true);
+            }}
+            onMouseLeave={() => {
+              setHovering(false);
+            }}
           >
             <i class="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
@@ -45,6 +52,12 @@ const ProjectCard = ({ project, index }) => {
             target="_blank"
             rel="noreferrer"
             href={project.github}
+            onMouseEnter={() => {
+              setHovering(true);
+            }}
+            onMouseLeave={() => {
+              setHovering(false);
+            }}
           >
             <i class="fa-brands fa-github"></i>
           </a>

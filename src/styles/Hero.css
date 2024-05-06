@@ -90,11 +90,18 @@
     font-weight: 500;
     font-size: 20px;
   }
+  .social-handles {
+    cursor: none !important;
+  }
   .social-handles i {
     width: 30px;
     height: 30px;
     font-size: 30px;
     margin-right: 23px;
+    cursor: none !important;
+  }
+  .social-handles a {
+    cursor: none !important;
   }
 }
 @media screen and (max-width: 463px) {

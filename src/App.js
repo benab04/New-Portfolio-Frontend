@@ -5,15 +5,18 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import CustomCursor from "./components/CustomCursor";
+import { CursorProvider } from "./components/CursorContext";
 function App() {
   return (
-    <div className="App">
-      <CustomCursor />
-      <Navbar />
-      <Hero />
-      {/* <About /> */}
-      <Projects />
-    </div>
+    <CursorProvider>
+      <div className="App">
+        <CustomCursor />
+        <Navbar />
+        <Hero />
+        {/* <About /> */}
+        <Projects />
+      </div>
+    </CursorProvider>
   );
 }
 

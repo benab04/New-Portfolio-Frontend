@@ -98,12 +98,14 @@
   color: #97a6e7;
   font-size: 21px;
   margin: 5px 10px 5px 0;
+  cursor: none;
 }
 .project-link {
   text-decoration: none;
   color: #97a6e7;
   font-size: 20px;
   margin: 5px 10px 5px 0;
+  cursor: none;
 }
 @media screen and (max-width: 700px) {
 }

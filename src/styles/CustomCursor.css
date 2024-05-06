@@ -12,6 +12,8 @@
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
   border-bottom: 14px solid rgb(54, 12, 205);
+  /* border-bottom: 14px solid rgba(54, 12, 205, 0.311); */
+
   transform: rotate(-45deg);
 }
 .circle {
