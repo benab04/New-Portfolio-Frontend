@@ -18,6 +18,16 @@
   color: inherit;
   cursor: none !important;
 }
+
+.nav-visible {
+  transform: translateY(0);
+  transition: transform 0.5s;
+}
+
+.nav-hidden {
+  transform: translateY(-100%);
+  transition: transform 0.5s;
+}
 .navbar-links a {
   text-decoration: none;
   color: rgb(88, 86, 213, 0.66);

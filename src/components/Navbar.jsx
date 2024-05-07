@@ -3,16 +3,29 @@ import "../styles/Navbar.css";
 import { useCursor } from "./CursorContext";
 function Navbar() {
   const [isToggled, setIsToggled] = useState(false);
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(true);
 
   useEffect(() => {
     if (window.innerWidth > 768) {
       setIsToggled(false);
     }
-  }, []);
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+
+      setVisible(prevScrollPos > currentScrollPos || currentScrollPos < 10);
+      setPrevScrollPos(currentScrollPos);
+    };
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [prevScrollPos]);
   const { setHovering } = useCursor();
 
   return (
-    <div className="Navbar">
+    <div
+      className={`Navbar fixed-top ${visible ? "nav-visible" : "nav-hidden"}`}
+    >
       <div className="personal-brand">
         <h2>
           <a
