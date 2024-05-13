@@ -65,7 +65,7 @@ function Navbar() {
           Projects
         </a>
         <a
-          href="#"
+          href="https://medium.com/@benabrahambiju"
           onMouseEnter={() => {
             setHovering(true);
           }}
