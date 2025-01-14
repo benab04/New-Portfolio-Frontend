@@ -21,7 +21,7 @@ const projects = [
       "D3JS",
     ],
     image: moon,
-    // github: "https://github.com/benab04/Breadth-Selection-Frontend",
+    github: "",
     link: "https://isro-interiit-frontend.netlify.app/",
   },
   {
