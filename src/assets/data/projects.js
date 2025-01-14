@@ -7,8 +7,23 @@ import sbrc from "../images/projects/sbrc.png";
 import cancer from "../images/projects/cancer.png";
 import localization from "../images/projects/localization.png";
 import solar from "../images/projects/solar.png";
+import moon from "../images/projects/dynamicmappingofmoon.png"
 
 const projects = [
+  {
+    title: "Dynamic Elemental Mapping on Moon",
+    description:
+      "Interactive 3D moon model using Three.js, showcasing element maps and important sites, with toggleable satellite and main camera views.",
+    skills: [
+      "Three.js",
+      "ReactJS",
+      "Django",
+      "D3JS",
+    ],
+    image: moon,
+    // github: "https://github.com/benab04/Breadth-Selection-Frontend",
+    link: "https://isro-interiit-frontend.netlify.app/",
+  },
   {
     title: "Breadth Selection Tool",
     description:
@@ -28,7 +43,7 @@ const projects = [
   {
     title: "Algorithm to Code Converter",
     description:
-      "Based on a prompt or sequence of algorithms given by a user, the corresponding code in a variety of languages will be generated",
+      "Based on a prompt or sequence of algorithms given by a user, the corresponding code in a variety of languages will be generated.",
     skills: ["ReactJS", "Django", "RestAPI"],
     image: algo,
     github: "https://github.com/benab04/Algorithm-Code-Generator-Frontend",
